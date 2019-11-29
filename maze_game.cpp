@@ -4,6 +4,6 @@
 
 #include "maze_game.hpp"
 
-Maze * maze_game::create_maze(maze_factory& factory) {
+maze* maze_game::create_maze(maze_factory& factory) {
 
 }

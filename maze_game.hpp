@@ -7,5 +7,5 @@
 #include "maze_factory.hpp"
 
 class maze_game {
-    Maze* create_maze(maze_factory& factory);
+    maze* create_maze(maze_factory& factory);
 };

@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/door.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.hpp">
@@ -90,6 +96,12 @@
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/room.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/wall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/CMakeLists.txt">
