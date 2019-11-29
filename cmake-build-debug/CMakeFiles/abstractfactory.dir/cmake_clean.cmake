@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/abstractfactory.dir/main.cpp.o"
+  "CMakeFiles/abstractfactory.dir/maze_factory.cpp.o"
   "abstractfactory.exe"
   "abstractfactory.pdb"
   "libabstractfactory.dll.a"

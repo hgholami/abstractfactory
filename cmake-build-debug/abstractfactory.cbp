@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
