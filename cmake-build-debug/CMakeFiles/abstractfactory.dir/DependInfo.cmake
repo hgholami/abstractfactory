@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp" "/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles/abstractfactory.dir/main.cpp.o"
-  "/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp" "/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles/abstractfactory.dir/maze_factory.cpp.o"
+  "/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp" "/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles/abstractfactory.dir/maze_game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

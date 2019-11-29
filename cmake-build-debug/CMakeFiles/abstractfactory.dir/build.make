@@ -70,29 +70,29 @@ CMakeFiles/abstractfactory.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/main.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp -o CMakeFiles/abstractfactory.dir/main.cpp.s
 
-CMakeFiles/abstractfactory.dir/maze_factory.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
-CMakeFiles/abstractfactory.dir/maze_factory.cpp.o: ../maze_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abstractfactory.dir/maze_factory.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/maze_factory.cpp.o -c /cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp
+CMakeFiles/abstractfactory.dir/maze_game.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/maze_game.cpp.o: ../maze_game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abstractfactory.dir/maze_game.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/maze_game.cpp.o -c /cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp
 
-CMakeFiles/abstractfactory.dir/maze_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/maze_factory.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp > CMakeFiles/abstractfactory.dir/maze_factory.cpp.i
+CMakeFiles/abstractfactory.dir/maze_game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/maze_game.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp > CMakeFiles/abstractfactory.dir/maze_game.cpp.i
 
-CMakeFiles/abstractfactory.dir/maze_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/maze_factory.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp -o CMakeFiles/abstractfactory.dir/maze_factory.cpp.s
+CMakeFiles/abstractfactory.dir/maze_game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/maze_game.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp -o CMakeFiles/abstractfactory.dir/maze_game.cpp.s
 
 # Object files for target abstractfactory
 abstractfactory_OBJECTS = \
 "CMakeFiles/abstractfactory.dir/main.cpp.o" \
-"CMakeFiles/abstractfactory.dir/maze_factory.cpp.o"
+"CMakeFiles/abstractfactory.dir/maze_game.cpp.o"
 
 # External object files for target abstractfactory
 abstractfactory_EXTERNAL_OBJECTS =
 
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/main.cpp.o
-abstractfactory.exe: CMakeFiles/abstractfactory.dir/maze_factory.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/maze_game.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/build.make
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable abstractfactory.exe"

@@ -83,10 +83,13 @@
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.cpp">
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.hpp">
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/CMakeLists.txt">
