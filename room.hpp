@@ -7,6 +7,7 @@
 #include "wall.hpp"
 
 class room{
+    int number;
     vector<wall> walls;
 
 public:

@@ -5,6 +5,7 @@
 #pragma once
 
 class door{
+    int number;
     room* room1;
     room* room2;
 

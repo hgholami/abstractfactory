@@ -7,6 +7,7 @@
 using namespace std;
 
 class wall{
+    int number;
 
 public:
     virtual void print() = 0;
