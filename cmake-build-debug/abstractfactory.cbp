@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/door.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/abstract_maze_components/door.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/abstract_maze_components/maze.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/abstract_maze_components/room.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/abstract_maze_components/wall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/driver.cpp">
@@ -146,9 +155,6 @@
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_wall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze.hpp">
-			<Option target="abstractfactory"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze_factory.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
@@ -156,12 +162,6 @@
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze_game.hpp">
-			<Option target="abstractfactory"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/room.hpp">
-			<Option target="abstractfactory"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/wall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/CMakeLists.txt">

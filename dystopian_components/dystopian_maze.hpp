@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "maze.hpp"
+#include "../abstract_maze_components/maze.hpp"
 
 /*
  * Class representing a dystopian maze

@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "maze_factory.hpp"
+#include "../maze_factory.hpp"
 #include "dystopian_wall.hpp"
 #include "dystopian_room.hpp"
 #include "dystopian_door.hpp"

@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "maze_factory.hpp"
+#include "../maze_factory.hpp"
 #include "enchanted_wall.hpp"
 #include "enchanted_room.hpp"
 #include "enchanted_door.hpp"

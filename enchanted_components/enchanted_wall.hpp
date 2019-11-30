@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "wall.hpp"
+#include "../abstract_maze_components/wall.hpp"
 
 /*
  * Class representing a enchanted wall

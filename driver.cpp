@@ -1,6 +1,6 @@
 #include "maze_game.hpp"
-#include "enchanted_maze_factory.hpp"
-#include "dystopian_maze_factory.hpp"
+#include "enchanted_components/enchanted_maze_factory.hpp"
+#include "dystopian_components/dystopian_maze_factory.hpp"
 
 //Drives the program
 int main() {

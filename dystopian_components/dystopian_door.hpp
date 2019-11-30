@@ -3,13 +3,13 @@
 //
 
 #pragma once
-#include "door.hpp"
+#include "../abstract_maze_components/door.hpp"
 
 /*
- * Class representing an enchanted door
+ * Class representing a dystopian door
  * Subclass of abstract class door
  */
-class enchanted_door : public door{
+class dystopian_door : public door{
 public:
     /*
      * Constructor
@@ -17,17 +17,17 @@ public:
      * @param - room1: pointer to a room to be connected
      * @param - room2: pointer to a room to be connected
      */
-    enchanted_door(int doorNum, room* room1, room* room2) : door(doorNum, room1, room2){};
+    dystopian_door(int doorNum, room* room1, room* room2) : door(doorNum, room1, room2){};
 
     /*
      * Default destructor
      */
-    ~enchanted_door(){};
+    ~dystopian_door(){};
 
     /*
      * Overwritten print function
-     * prints the enchanted door number
-     * prints all information about enchanted rooms the door connects
+     * prints the dystopian door number
+     * prints all information about dystopian rooms the door connects
      */
     void print() override;
 };
