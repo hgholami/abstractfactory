@@ -122,18 +122,44 @@ CMakeFiles/abstractfactory.dir/enchanted_room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/enchanted_room.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_room.cpp -o CMakeFiles/abstractfactory.dir/enchanted_room.cpp.s
 
-CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
-CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o: ../dystopianRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianRoom.cpp
+CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o: ../dystopian_room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_room.cpp
 
-CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianRoom.cpp > CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.i
+CMakeFiles/abstractfactory.dir/dystopian_room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/dystopian_room.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_room.cpp > CMakeFiles/abstractfactory.dir/dystopian_room.cpp.i
 
-CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianRoom.cpp -o CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.s
+CMakeFiles/abstractfactory.dir/dystopian_room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/dystopian_room.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_room.cpp -o CMakeFiles/abstractfactory.dir/dystopian_room.cpp.s
+
+CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o: ../enchanted_door.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_door.cpp
+
+CMakeFiles/abstractfactory.dir/enchanted_door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/enchanted_door.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_door.cpp > CMakeFiles/abstractfactory.dir/enchanted_door.cpp.i
+
+CMakeFiles/abstractfactory.dir/enchanted_door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/enchanted_door.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_door.cpp -o CMakeFiles/abstractfactory.dir/enchanted_door.cpp.s
+
+CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o: ../dystopianDoor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianDoor.cpp
+
+CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianDoor.cpp > CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.i
+
+CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianDoor.cpp -o CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.s
 
 # Object files for target abstractfactory
 abstractfactory_OBJECTS = \
@@ -142,7 +168,9 @@ abstractfactory_OBJECTS = \
 "CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.o" \
 "CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.o" \
 "CMakeFiles/abstractfactory.dir/enchanted_room.cpp.o" \
-"CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o"
+"CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o" \
+"CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o" \
+"CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o"
 
 # External object files for target abstractfactory
 abstractfactory_EXTERNAL_OBJECTS =
@@ -152,10 +180,12 @@ abstractfactory.exe: CMakeFiles/abstractfactory.dir/maze_game.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_room.cpp.o
-abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/build.make
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable abstractfactory.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable abstractfactory.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abstractfactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
