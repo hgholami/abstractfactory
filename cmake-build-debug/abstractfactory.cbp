@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="abstractfactory">
-				<Option output="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/abstractfactory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/abstractfactory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractfactory"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractfactory"/>
+					<CompileFile command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="abstractfactory/fast">
-				<Option output="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/abstractfactory.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/abstractfactory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,48 +63,60 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractfactory/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractfactory/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j24 -f &quot;/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/door.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/door.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/main.cpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianWall.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianWall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_factory.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedWall.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.cpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedWall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/maze_game.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/main.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/room.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/wall.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze_factory.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/CLion/COMP3522/abstractfactory/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze_game.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/maze_game.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/room.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/wall.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

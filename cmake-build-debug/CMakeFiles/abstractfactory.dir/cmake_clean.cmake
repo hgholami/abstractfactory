@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/abstractfactory.dir/dystopianWall.cpp.o"
+  "CMakeFiles/abstractfactory.dir/enchantedWall.cpp.o"
   "CMakeFiles/abstractfactory.dir/main.cpp.o"
   "CMakeFiles/abstractfactory.dir/maze_game.cpp.o"
   "abstractfactory.exe"

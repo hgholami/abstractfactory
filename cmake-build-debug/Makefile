@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/houma/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Houman/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/houma/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Houman/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/CLion/COMP3522/abstractfactory
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/houma/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/Houman/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/houma/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/Houman/.CLion2019.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles /cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/CLion/COMP3522/abstractfactory/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ abstractfactory: cmake_check_build_system
 abstractfactory/fast:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
 .PHONY : abstractfactory/fast
+
+dystopianWall.o: dystopianWall.cpp.o
+
+.PHONY : dystopianWall.o
+
+# target to build an object file
+dystopianWall.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.o
+.PHONY : dystopianWall.cpp.o
+
+dystopianWall.i: dystopianWall.cpp.i
+
+.PHONY : dystopianWall.i
+
+# target to preprocess a source file
+dystopianWall.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.i
+.PHONY : dystopianWall.cpp.i
+
+dystopianWall.s: dystopianWall.cpp.s
+
+.PHONY : dystopianWall.s
+
+# target to generate assembly for a file
+dystopianWall.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.s
+.PHONY : dystopianWall.cpp.s
+
+enchantedWall.o: enchantedWall.cpp.o
+
+.PHONY : enchantedWall.o
+
+# target to build an object file
+enchantedWall.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.o
+.PHONY : enchantedWall.cpp.o
+
+enchantedWall.i: enchantedWall.cpp.i
+
+.PHONY : enchantedWall.i
+
+# target to preprocess a source file
+enchantedWall.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.i
+.PHONY : enchantedWall.cpp.i
+
+enchantedWall.s: enchantedWall.cpp.s
+
+.PHONY : enchantedWall.s
+
+# target to generate assembly for a file
+enchantedWall.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.s
+.PHONY : enchantedWall.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,6 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstractfactory"
 	@echo "... edit_cache"
+	@echo "... dystopianWall.o"
+	@echo "... dystopianWall.i"
+	@echo "... dystopianWall.s"
+	@echo "... enchantedWall.o"
+	@echo "... enchantedWall.i"
+	@echo "... enchantedWall.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
