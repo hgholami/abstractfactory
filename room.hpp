@@ -16,5 +16,5 @@ public:
     room(int number) : number(number){};
     ~room(){};
     virtual void print() = 0;
-    virtual void build_wall(int wallNum) = 0;
+    virtual void add_wall(wall* wall) = 0;
 };

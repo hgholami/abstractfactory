@@ -10,6 +10,6 @@ void dystopian_room::print() {
         w->print();
 }
 
-void dystopian_room::build_wall(int wallNum) {
-    walls.push_back(new dystopian_wall(wallNum));
+void dystopian_room::add_wall(wall* wall) {
+    walls.push_back(wall);
 }

@@ -10,6 +10,6 @@ void enchanted_room::print() {
         w->print();
 }
 
-void enchanted_room::build_wall(int wallNum) {
-    walls.push_back(new enchanted_wall(wallNum));
+void enchanted_room::add_wall(wall* wall) {
+    walls.push_back(wall);
 }

@@ -9,15 +9,16 @@ maze* maze_game::create_maze(maze_factory& factory) {
     room* room1 = factory.make_room(1);
     room* room2 = factory.make_room(2);
 
-    room1->build_wall(1);
-    room1->build_wall(2);
-    room1->build_wall(3);
-    room1->build_wall(4);
+    room1->add_wall(factory.make_wall(1));
+    room1->add_wall(factory.make_wall(2));
+    room1->add_wall(factory.make_wall(3));
+    room1->add_wall(factory.make_wall(4));
 
-    room2->build_wall(1);
-    room2->build_wall(2);
-    room2->build_wall(3);
-    room2->build_wall(4);
+
+    room2->add_wall(factory.make_wall(1));
+    room2->add_wall(factory.make_wall(2));
+    room2->add_wall(factory.make_wall(3));
+    room2->add_wall(factory.make_wall(4));
 
     door* door = factory.make_door(1, *room1, *room2);
 

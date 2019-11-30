@@ -15,5 +15,5 @@ public:
     };
 
     void print() override;
-    void build_wall(int wallNum) override;
+    void add_wall(wall* wall) override;
 };
