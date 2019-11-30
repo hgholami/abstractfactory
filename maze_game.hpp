@@ -7,7 +7,5 @@
 #include "maze_factory.hpp"
 
 struct maze_game {
-    maze_game(){};
-    ~maze_game();
     maze* create_maze(maze_factory& factory);
 };

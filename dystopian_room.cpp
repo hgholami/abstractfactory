@@ -5,4 +5,11 @@
 #include "dystopian_room.hpp"
 void dystopian_room::print() {
     cout << "Futuristic Dystopian room number " << number << endl;
+    cout << "The walls of this room are: " << endl;
+    for(wall* w : walls)
+        w->print();
+}
+
+void dystopian_room::build_wall(int wallNum) {
+    walls.push_back(new dystopian_wall(wallNum));
 }

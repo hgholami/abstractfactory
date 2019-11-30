@@ -10,9 +10,11 @@
 class room{
 protected:
     int number;
+    vector<wall*> walls;
 
 public:
     room(int number) : number(number){};
     ~room(){};
     virtual void print() = 0;
+    virtual void build_wall(int wallNum) = 0;
 };

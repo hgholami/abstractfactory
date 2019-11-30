@@ -10,11 +10,15 @@ class maze{
 protected:
     vector<room*> rooms;
     vector<door*> doors;
-    vector<wall*> walls;
 
 public:
+    ~maze(){
+        for(door* d : doors)
+            delete(d);
+        for(room* r : rooms)
+            delete(r);
+    }
     virtual void add_room(room* room){rooms.push_back(room);}
     virtual void add_door(door* door){doors.push_back(door);}
-    virtual void add_wall(wall* wall){walls.push_back(wall);}
     virtual void print() = 0;
 };

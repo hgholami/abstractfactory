@@ -9,6 +9,4 @@ void dystopian_maze::print() {
         r->print();
     for(door* d : doors)
         d->print();
-    for(wall* w : walls)
-        w->print();
 }
