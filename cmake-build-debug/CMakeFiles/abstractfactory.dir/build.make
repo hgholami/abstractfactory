@@ -187,18 +187,31 @@ CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_maze.cpp -o CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.s
 
-CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
-CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o: ../enchantedMazeFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedMazeFactory.cpp
+CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o: ../enchanted_maze_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_maze_factory.cpp
 
-CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedMazeFactory.cpp > CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.i
+CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_maze_factory.cpp > CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.i
 
-CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedMazeFactory.cpp -o CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.s
+CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_maze_factory.cpp -o CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.s
+
+CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o: CMakeFiles/abstractfactory.dir/flags.make
+CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o: ../dystopianMazeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o -c /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianMazeFactory.cpp
+
+CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianMazeFactory.cpp > CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.i
+
+CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianMazeFactory.cpp -o CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.s
 
 # Object files for target abstractfactory
 abstractfactory_OBJECTS = \
@@ -212,7 +225,8 @@ abstractfactory_OBJECTS = \
 "CMakeFiles/abstractfactory.dir/dystopian_door.cpp.o" \
 "CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.o" \
 "CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.o" \
-"CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o"
+"CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o" \
+"CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o"
 
 # External object files for target abstractfactory
 abstractfactory_EXTERNAL_OBJECTS =
@@ -227,10 +241,11 @@ abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopian_door.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.o
-abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/enchanted_maze_factory.cpp.o
+abstractfactory.exe: CMakeFiles/abstractfactory.dir/dystopianMazeFactory.cpp.o
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/build.make
 abstractfactory.exe: CMakeFiles/abstractfactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable abstractfactory.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable abstractfactory.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abstractfactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
