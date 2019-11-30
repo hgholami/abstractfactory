@@ -8,6 +8,7 @@ void dystopian_room::print() {
     cout << "The walls of this room are: " << endl;
     for(wall* w : walls)
         w->print();
+    cout << endl;
 }
 
 void dystopian_room::add_wall(wall* wall) {

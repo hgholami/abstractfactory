@@ -4,9 +4,8 @@
 
 #include "dystopian_maze.hpp"
 void dystopian_maze::print() {
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
     cout << "Futuristic Dystopian maze includes:" << endl;
-    for(room* r : rooms)
-        r->print();
     for(door* d : doors)
         d->print();
 }

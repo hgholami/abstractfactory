@@ -4,9 +4,8 @@
 
 #include "enchanted_maze.hpp"
 void enchanted_maze::print() {
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
     cout << "Enchanted faery land maze includes:" << endl;
-    for(room* r : rooms)
-        r->print();
     for(door* d : doors)
         d->print();
 }

@@ -8,6 +8,7 @@ void enchanted_room::print() {
     cout << "The walls of this room are: " << endl;
     for(wall* w : walls)
         w->print();
+    cout << endl;
 }
 
 void enchanted_room::add_wall(wall* wall) {
