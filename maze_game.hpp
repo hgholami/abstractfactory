@@ -6,6 +6,8 @@
 
 #include "maze_factory.hpp"
 
-class maze_game {
+struct maze_game {
+    maze_game(){};
+    ~maze_game();
     maze* create_maze(maze_factory& factory);
 };

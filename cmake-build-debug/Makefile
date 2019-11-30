@@ -123,33 +123,6 @@ abstractfactory/fast:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
 .PHONY : abstractfactory/fast
 
-dystopianMaze.o: dystopianMaze.cpp.o
-
-.PHONY : dystopianMaze.o
-
-# target to build an object file
-dystopianMaze.cpp.o:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.o
-.PHONY : dystopianMaze.cpp.o
-
-dystopianMaze.i: dystopianMaze.cpp.i
-
-.PHONY : dystopianMaze.i
-
-# target to preprocess a source file
-dystopianMaze.cpp.i:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.i
-.PHONY : dystopianMaze.cpp.i
-
-dystopianMaze.s: dystopianMaze.cpp.s
-
-.PHONY : dystopianMaze.s
-
-# target to generate assembly for a file
-dystopianMaze.cpp.s:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.s
-.PHONY : dystopianMaze.cpp.s
-
 dystopian_door.o: dystopian_door.cpp.o
 
 .PHONY : dystopian_door.o
@@ -176,6 +149,33 @@ dystopian_door.s: dystopian_door.cpp.s
 dystopian_door.cpp.s:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_door.cpp.s
 .PHONY : dystopian_door.cpp.s
+
+dystopian_maze.o: dystopian_maze.cpp.o
+
+.PHONY : dystopian_maze.o
+
+# target to build an object file
+dystopian_maze.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.o
+.PHONY : dystopian_maze.cpp.o
+
+dystopian_maze.i: dystopian_maze.cpp.i
+
+.PHONY : dystopian_maze.i
+
+# target to preprocess a source file
+dystopian_maze.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.i
+.PHONY : dystopian_maze.cpp.i
+
+dystopian_maze.s: dystopian_maze.cpp.s
+
+.PHONY : dystopian_maze.s
+
+# target to generate assembly for a file
+dystopian_maze.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_maze.cpp.s
+.PHONY : dystopian_maze.cpp.s
 
 dystopian_room.o: dystopian_room.cpp.o
 
@@ -230,6 +230,33 @@ dystopian_wall.s: dystopian_wall.cpp.s
 dystopian_wall.cpp.s:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.s
 .PHONY : dystopian_wall.cpp.s
+
+enchantedMazeFactory.o: enchantedMazeFactory.cpp.o
+
+.PHONY : enchantedMazeFactory.o
+
+# target to build an object file
+enchantedMazeFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.o
+.PHONY : enchantedMazeFactory.cpp.o
+
+enchantedMazeFactory.i: enchantedMazeFactory.cpp.i
+
+.PHONY : enchantedMazeFactory.i
+
+# target to preprocess a source file
+enchantedMazeFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.i
+.PHONY : enchantedMazeFactory.cpp.i
+
+enchantedMazeFactory.s: enchantedMazeFactory.cpp.s
+
+.PHONY : enchantedMazeFactory.s
+
+# target to generate assembly for a file
+enchantedMazeFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedMazeFactory.cpp.s
+.PHONY : enchantedMazeFactory.cpp.s
 
 enchanted_door.o: enchanted_door.cpp.o
 
@@ -402,18 +429,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstractfactory"
 	@echo "... edit_cache"
-	@echo "... dystopianMaze.o"
-	@echo "... dystopianMaze.i"
-	@echo "... dystopianMaze.s"
 	@echo "... dystopian_door.o"
 	@echo "... dystopian_door.i"
 	@echo "... dystopian_door.s"
+	@echo "... dystopian_maze.o"
+	@echo "... dystopian_maze.i"
+	@echo "... dystopian_maze.s"
 	@echo "... dystopian_room.o"
 	@echo "... dystopian_room.i"
 	@echo "... dystopian_room.s"
 	@echo "... dystopian_wall.o"
 	@echo "... dystopian_wall.i"
 	@echo "... dystopian_wall.s"
+	@echo "... enchantedMazeFactory.o"
+	@echo "... enchantedMazeFactory.i"
+	@echo "... enchantedMazeFactory.s"
 	@echo "... enchanted_door.o"
 	@echo "... enchanted_door.i"
 	@echo "... enchanted_door.s"

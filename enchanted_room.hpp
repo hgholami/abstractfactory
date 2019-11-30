@@ -7,6 +7,7 @@
 #
 
 class enchanted_room : public room{
+public:
     enchanted_room(int roomNum) : room(roomNum){};
     ~enchanted_room(){};
     void print() override;
