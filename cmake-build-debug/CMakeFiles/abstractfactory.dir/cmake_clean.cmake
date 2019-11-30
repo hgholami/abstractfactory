@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o"
+  "CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.o"
+  "CMakeFiles/abstractfactory.dir/dystopian_door.cpp.o"
   "CMakeFiles/abstractfactory.dir/dystopian_room.cpp.o"
   "CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.o"
   "CMakeFiles/abstractfactory.dir/enchanted_door.cpp.o"
+  "CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.o"
   "CMakeFiles/abstractfactory.dir/enchanted_room.cpp.o"
   "CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.o"
   "CMakeFiles/abstractfactory.dir/main.cpp.o"

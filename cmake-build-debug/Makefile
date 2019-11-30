@@ -123,32 +123,59 @@ abstractfactory/fast:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
 .PHONY : abstractfactory/fast
 
-dystopianDoor.o: dystopianDoor.cpp.o
+dystopianMaze.o: dystopianMaze.cpp.o
 
-.PHONY : dystopianDoor.o
+.PHONY : dystopianMaze.o
 
 # target to build an object file
-dystopianDoor.cpp.o:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.o
-.PHONY : dystopianDoor.cpp.o
+dystopianMaze.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.o
+.PHONY : dystopianMaze.cpp.o
 
-dystopianDoor.i: dystopianDoor.cpp.i
+dystopianMaze.i: dystopianMaze.cpp.i
 
-.PHONY : dystopianDoor.i
+.PHONY : dystopianMaze.i
 
 # target to preprocess a source file
-dystopianDoor.cpp.i:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.i
-.PHONY : dystopianDoor.cpp.i
+dystopianMaze.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.i
+.PHONY : dystopianMaze.cpp.i
 
-dystopianDoor.s: dystopianDoor.cpp.s
+dystopianMaze.s: dystopianMaze.cpp.s
 
-.PHONY : dystopianDoor.s
+.PHONY : dystopianMaze.s
 
 # target to generate assembly for a file
-dystopianDoor.cpp.s:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianDoor.cpp.s
-.PHONY : dystopianDoor.cpp.s
+dystopianMaze.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianMaze.cpp.s
+.PHONY : dystopianMaze.cpp.s
+
+dystopian_door.o: dystopian_door.cpp.o
+
+.PHONY : dystopian_door.o
+
+# target to build an object file
+dystopian_door.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_door.cpp.o
+.PHONY : dystopian_door.cpp.o
+
+dystopian_door.i: dystopian_door.cpp.i
+
+.PHONY : dystopian_door.i
+
+# target to preprocess a source file
+dystopian_door.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_door.cpp.i
+.PHONY : dystopian_door.cpp.i
+
+dystopian_door.s: dystopian_door.cpp.s
+
+.PHONY : dystopian_door.s
+
+# target to generate assembly for a file
+dystopian_door.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_door.cpp.s
+.PHONY : dystopian_door.cpp.s
 
 dystopian_room.o: dystopian_room.cpp.o
 
@@ -230,6 +257,33 @@ enchanted_door.s: enchanted_door.cpp.s
 enchanted_door.cpp.s:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_door.cpp.s
 .PHONY : enchanted_door.cpp.s
+
+enchanted_maze.o: enchanted_maze.cpp.o
+
+.PHONY : enchanted_maze.o
+
+# target to build an object file
+enchanted_maze.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.o
+.PHONY : enchanted_maze.cpp.o
+
+enchanted_maze.i: enchanted_maze.cpp.i
+
+.PHONY : enchanted_maze.i
+
+# target to preprocess a source file
+enchanted_maze.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.i
+.PHONY : enchanted_maze.cpp.i
+
+enchanted_maze.s: enchanted_maze.cpp.s
+
+.PHONY : enchanted_maze.s
+
+# target to generate assembly for a file
+enchanted_maze.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_maze.cpp.s
+.PHONY : enchanted_maze.cpp.s
 
 enchanted_room.o: enchanted_room.cpp.o
 
@@ -348,9 +402,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstractfactory"
 	@echo "... edit_cache"
-	@echo "... dystopianDoor.o"
-	@echo "... dystopianDoor.i"
-	@echo "... dystopianDoor.s"
+	@echo "... dystopianMaze.o"
+	@echo "... dystopianMaze.i"
+	@echo "... dystopianMaze.s"
+	@echo "... dystopian_door.o"
+	@echo "... dystopian_door.i"
+	@echo "... dystopian_door.s"
 	@echo "... dystopian_room.o"
 	@echo "... dystopian_room.i"
 	@echo "... dystopian_room.s"
@@ -360,6 +417,9 @@ help:
 	@echo "... enchanted_door.o"
 	@echo "... enchanted_door.i"
 	@echo "... enchanted_door.s"
+	@echo "... enchanted_maze.o"
+	@echo "... enchanted_maze.i"
+	@echo "... enchanted_maze.s"
 	@echo "... enchanted_room.o"
 	@echo "... enchanted_room.i"
 	@echo "... enchanted_room.s"
