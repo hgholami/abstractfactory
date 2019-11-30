@@ -4,5 +4,5 @@
 
 #include "dystopian_wall.hpp"
 void dystopian_wall::print() {
-    cout << "Dystopian future wall number " << number << endl;
+    cout << "Futuristic Dystopian wall number " << number << endl;
 }

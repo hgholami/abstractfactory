@@ -3,3 +3,6 @@
 //
 
 #include "dystopian_room.hpp"
+void dystopian_room::print() {
+    cout << "Futuristic Dystopian room number " << number << endl;
+}

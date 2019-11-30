@@ -3,3 +3,6 @@
 //
 
 #include "enchanted_room.hpp"
+void enchanted_room::print() {
+    cout << "Enchanted faery land room number " << number << endl;
+}
