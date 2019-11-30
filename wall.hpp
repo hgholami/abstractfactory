@@ -12,5 +12,7 @@ protected:
     int number;
 
 public:
+    wall(int wallNum) : number(wallNum){};
+    ~wall(){};
     virtual void print() = 0;
 };

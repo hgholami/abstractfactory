@@ -8,9 +8,11 @@
 #include "wall.hpp"
 
 class room{
+protected:
     int number;
-    vector<wall> walls;
 
 public:
+    room(int number) : number(number){};
+    ~room(){};
     virtual void print() = 0;
 };

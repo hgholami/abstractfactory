@@ -123,59 +123,113 @@ abstractfactory/fast:
 	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/build
 .PHONY : abstractfactory/fast
 
-dystopianWall.o: dystopianWall.cpp.o
+dystopianRoom.o: dystopianRoom.cpp.o
 
-.PHONY : dystopianWall.o
-
-# target to build an object file
-dystopianWall.cpp.o:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.o
-.PHONY : dystopianWall.cpp.o
-
-dystopianWall.i: dystopianWall.cpp.i
-
-.PHONY : dystopianWall.i
-
-# target to preprocess a source file
-dystopianWall.cpp.i:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.i
-.PHONY : dystopianWall.cpp.i
-
-dystopianWall.s: dystopianWall.cpp.s
-
-.PHONY : dystopianWall.s
-
-# target to generate assembly for a file
-dystopianWall.cpp.s:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianWall.cpp.s
-.PHONY : dystopianWall.cpp.s
-
-enchantedWall.o: enchantedWall.cpp.o
-
-.PHONY : enchantedWall.o
+.PHONY : dystopianRoom.o
 
 # target to build an object file
-enchantedWall.cpp.o:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.o
-.PHONY : enchantedWall.cpp.o
+dystopianRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.o
+.PHONY : dystopianRoom.cpp.o
 
-enchantedWall.i: enchantedWall.cpp.i
+dystopianRoom.i: dystopianRoom.cpp.i
 
-.PHONY : enchantedWall.i
+.PHONY : dystopianRoom.i
 
 # target to preprocess a source file
-enchantedWall.cpp.i:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.i
-.PHONY : enchantedWall.cpp.i
+dystopianRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.i
+.PHONY : dystopianRoom.cpp.i
 
-enchantedWall.s: enchantedWall.cpp.s
+dystopianRoom.s: dystopianRoom.cpp.s
 
-.PHONY : enchantedWall.s
+.PHONY : dystopianRoom.s
 
 # target to generate assembly for a file
-enchantedWall.cpp.s:
-	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchantedWall.cpp.s
-.PHONY : enchantedWall.cpp.s
+dystopianRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopianRoom.cpp.s
+.PHONY : dystopianRoom.cpp.s
+
+dystopian_wall.o: dystopian_wall.cpp.o
+
+.PHONY : dystopian_wall.o
+
+# target to build an object file
+dystopian_wall.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.o
+.PHONY : dystopian_wall.cpp.o
+
+dystopian_wall.i: dystopian_wall.cpp.i
+
+.PHONY : dystopian_wall.i
+
+# target to preprocess a source file
+dystopian_wall.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.i
+.PHONY : dystopian_wall.cpp.i
+
+dystopian_wall.s: dystopian_wall.cpp.s
+
+.PHONY : dystopian_wall.s
+
+# target to generate assembly for a file
+dystopian_wall.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/dystopian_wall.cpp.s
+.PHONY : dystopian_wall.cpp.s
+
+enchanted_room.o: enchanted_room.cpp.o
+
+.PHONY : enchanted_room.o
+
+# target to build an object file
+enchanted_room.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_room.cpp.o
+.PHONY : enchanted_room.cpp.o
+
+enchanted_room.i: enchanted_room.cpp.i
+
+.PHONY : enchanted_room.i
+
+# target to preprocess a source file
+enchanted_room.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_room.cpp.i
+.PHONY : enchanted_room.cpp.i
+
+enchanted_room.s: enchanted_room.cpp.s
+
+.PHONY : enchanted_room.s
+
+# target to generate assembly for a file
+enchanted_room.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_room.cpp.s
+.PHONY : enchanted_room.cpp.s
+
+enchanted_wall.o: enchanted_wall.cpp.o
+
+.PHONY : enchanted_wall.o
+
+# target to build an object file
+enchanted_wall.cpp.o:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.o
+.PHONY : enchanted_wall.cpp.o
+
+enchanted_wall.i: enchanted_wall.cpp.i
+
+.PHONY : enchanted_wall.i
+
+# target to preprocess a source file
+enchanted_wall.cpp.i:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.i
+.PHONY : enchanted_wall.cpp.i
+
+enchanted_wall.s: enchanted_wall.cpp.s
+
+.PHONY : enchanted_wall.s
+
+# target to generate assembly for a file
+enchanted_wall.cpp.s:
+	$(MAKE) -f CMakeFiles/abstractfactory.dir/build.make CMakeFiles/abstractfactory.dir/enchanted_wall.cpp.s
+.PHONY : enchanted_wall.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,12 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstractfactory"
 	@echo "... edit_cache"
-	@echo "... dystopianWall.o"
-	@echo "... dystopianWall.i"
-	@echo "... dystopianWall.s"
-	@echo "... enchantedWall.o"
-	@echo "... enchantedWall.i"
-	@echo "... enchantedWall.s"
+	@echo "... dystopianRoom.o"
+	@echo "... dystopianRoom.i"
+	@echo "... dystopianRoom.s"
+	@echo "... dystopian_wall.o"
+	@echo "... dystopian_wall.i"
+	@echo "... dystopian_wall.s"
+	@echo "... enchanted_room.o"
+	@echo "... enchanted_room.i"
+	@echo "... enchanted_room.s"
+	@echo "... enchanted_wall.o"
+	@echo "... enchanted_wall.i"
+	@echo "... enchanted_wall.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -7,8 +7,9 @@
 #include "door.hpp"
 
 class maze{
-    vector<room> rooms;
-    vector<door> doors;
+    vector<room*> rooms;
+    vector<door*> doors;
+    vector<wall*> walls;
 
 public:
     virtual void print() = 0;

@@ -83,16 +83,28 @@
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/door.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianWall.cpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianRoom.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianWall.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopianRoom.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedWall.cpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_wall.cpp">
 			<Option target="abstractfactory"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchantedWall.hpp">
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/dystopian_wall.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_room.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_room.hpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_wall.cpp">
+			<Option target="abstractfactory"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/enchanted_wall.hpp">
 			<Option target="abstractfactory"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Houman/CLion/COMP-3522/abstractfactory/main.cpp">
