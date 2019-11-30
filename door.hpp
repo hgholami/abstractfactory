@@ -3,6 +3,7 @@
 //
 
 #pragma once
+#include <iostream>
 
 class door{
     int number;

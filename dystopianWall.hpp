@@ -6,5 +6,8 @@
 #include "wall.hpp"
 
 class dystopian_wall : public wall {
-
+public:
+    dystopian_wall(int wallNum) {number = wallNum;};
+    ~dystopian_wall(){};
+    void print() override;
 };

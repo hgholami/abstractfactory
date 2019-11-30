@@ -3,3 +3,6 @@
 //
 
 #include "enchantedWall.hpp"
+void enchanted_wall::print() {
+    cout << "Enchanted faery land wall number " << number << endl;
+}

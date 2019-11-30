@@ -3,10 +3,12 @@
 //
 
 #pragma once
+#include <iostream>
 
 using namespace std;
 
 class wall{
+protected:
     int number;
 
 public:

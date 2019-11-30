@@ -3,3 +3,6 @@
 //
 
 #include "dystopianWall.hpp"
+void dystopian_wall::print() {
+    cout << "Dystopian future wall number " << number << endl;
+}
